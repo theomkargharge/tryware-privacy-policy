@@ -372,7 +372,7 @@
     <div class="hero-badge">📄 Legal Document</div>
     <h1>Privacy Policy</h1>
     <p class="meta">TryWare AI &nbsp;·&nbsp; Developed by <span>CrazzyAppz</span> &nbsp;·&nbsp; Last Updated:
-      <span>August 1, 2026</span></p>
+      <span>August 14, 2026</span></p>
   </div>
 
   <div class="wrapper">
@@ -421,7 +421,22 @@
         <li>App version and current patch version</li>
         <li>Crash reports and diagnostic logs</li>
         <li>Update status metadata (e.g., whether a code update was downloaded)</li>
+        <li>In-app interaction analytics — screens visited, taps, scrolls, and session duration</li>
       </ul>
+      <h3>e.1) Session Analytics &amp; Screen Recording</h3>
+      <p>We use <strong>Microsoft Clarity</strong> to understand how people use the App so we can improve it. Clarity
+        records a visual playback of your session — which screens you open, where you tap, and how you scroll — along
+        with a pseudonymous account identifier.</p>
+      <div class="callout info">
+        <span class="icon">🖼️</span>
+        <span><strong>Your photos are excluded from these recordings.</strong> Every part of the App that displays your
+          reference photo, a generated try-on image, or your saved wardrobe is deliberately masked before recording, so
+          those images are never captured or transmitted to Clarity. Recordings show only the App's interface —
+          buttons, menus, and navigation.</span>
+      </div>
+      <p>The only identifier attached to a session is your internal account ID. We do <strong>not</strong> send your
+        name, email address, or profile photo to Clarity. You may ask us to disable analytics for your account at any
+        time using the contact details at the end of this policy.</p>
       <h3>f) Deletion Fingerprint (Anti-Abuse)</h3>
       <p>Upon account deletion, we store a one-way cryptographic fingerprint (HMAC-SHA256 hash) of your email address.
         This fingerprint is <strong>not reversible</strong> — no email address can be recovered from it. It is used
@@ -440,6 +455,8 @@
         <li>Generate AI virtual try-on images from your uploaded photos.</li>
         <li>Manage your credit balance and purchases.</li>
         <li>Improve App performance and reliability.</li>
+        <li>Analyse how the App is used — which screens people visit and where they encounter difficulty — so we can
+          improve the experience. This analysis excludes your photos.</li>
         <li>Provide customer support.</li>
         <li>Detect fraud and prevent free-trial abuse.</li>
         <li>Deliver over-the-air (OTA) code updates for bug fixes, performance improvements, and feature enhancements
@@ -499,6 +516,11 @@
               <td>Shorebird (third-party update service)</td>
               <td>Per Shorebird's retention policy</td>
             </tr>
+            <tr>
+              <td>Session analytics (screens, taps, scrolls — photos excluded)</td>
+              <td>Microsoft Clarity</td>
+              <td>Per Microsoft Clarity's retention policy</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -510,7 +532,10 @@
         <li>Google Sign-In &amp; Firebase Authentication</li>
         <li>Firebase Crashlytics</li>
         <li>Razorpay Payment Gateway</li>
-        <li>Google Gemini AI (image generation)</li>
+        <li>AI image generation providers — currently <strong>OpenAI</strong>. We may switch to another provider
+          (such as Google Gemini or xAI Grok) to maintain service quality and availability. Whichever provider is
+          active receives only the two photos needed to produce your try-on image, and no account details.</li>
+        <li>Microsoft Clarity (in-app analytics and session replay, with your photos masked)</li>
         <li>Shorebird (over-the-air code update delivery)</li>
       </ul>
       <p>Each third party operates under its own privacy policy. We recommend reviewing those policies for details on
@@ -557,7 +582,8 @@
       <h2><span class="sec-num">6</span> Data Sharing</h2>
       <p>We never sell or rent your personal information. We only share information:</p>
       <ul>
-        <li>With trusted service providers necessary to operate the App (Firebase, Razorpay, Google Gemini, Shorebird).
+        <li>With trusted service providers necessary to operate the App (Firebase, Razorpay, our current AI image
+          generation provider, Microsoft Clarity, Shorebird).
         </li>
         <li>When required by law, court order, or governmental authority.</li>
         <li>To protect our legal rights or investigate fraud.</li>
