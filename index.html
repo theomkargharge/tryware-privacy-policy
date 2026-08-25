@@ -372,7 +372,7 @@
     <div class="hero-badge">📄 Legal Document</div>
     <h1>Privacy Policy</h1>
     <p class="meta">TryWare AI &nbsp;·&nbsp; Developed by <span>CrazzyAppz</span> &nbsp;·&nbsp; Last Updated:
-      <span>August 14, 2026</span></p>
+      <span>August 25, 2026</span></p>
   </div>
 
   <div class="wrapper">
@@ -422,6 +422,8 @@
         <li>Crash reports and diagnostic logs</li>
         <li>Update status metadata (e.g., whether a code update was downloaded)</li>
         <li>In-app interaction analytics — screens visited, taps, scrolls, and session duration</li>
+        <li>Advertising identifier (Google Advertising ID) and app-event data, used only to measure advertising —
+          see section e.2</li>
       </ul>
       <h3>e.1) Session Analytics &amp; Screen Recording</h3>
       <p>We use <strong>Microsoft Clarity</strong> to understand how people use the App so we can improve it. Clarity
@@ -437,6 +439,24 @@
       <p>The only identifier attached to a session is your internal account ID. We do <strong>not</strong> send your
         name, email address, or profile photo to Clarity. You may ask us to disable analytics for your account at any
         time using the contact details at the end of this policy.</p>
+      <h3>e.2) Advertising Measurement</h3>
+      <p>We advertise TryWare AI on Meta platforms (Facebook and Instagram). To understand which adverts actually lead
+        to people installing and using the App — rather than paying for adverts that do nothing — the App reports a
+        small set of <strong>app events</strong> to Meta using the Meta SDK.</p>
+      <p>The events reported are limited to milestones in your use of the App: that a first sign-in occurred, that
+        photo setup was completed, that a try-on image was generated, that the credits screen was opened, that a
+        checkout was started, and that a purchase completed (including the amount paid). Alongside these, Meta
+        receives your device's <strong>Google Advertising ID</strong> and your internal account ID.</p>
+      <div class="callout info">
+        <span class="icon">🖼️</span>
+        <span><strong>No photos, generated images, or prompts are ever sent to Meta.</strong> Nor is your name, email
+          address, or profile photo. The App sends event names, a quality-tier label, and purchase amounts — nothing
+          else.</span>
+      </div>
+      <p>You can limit this at the device level at any time: on Android, <em>Settings → Google → Ads</em> lets you
+        delete or opt out of your advertising ID, which stops it being shared. You may also ask us to disable
+        advertising measurement for your account using the contact details at the end of this policy, and we can
+        switch it off remotely without requiring an App update.</p>
       <h3>f) Deletion Fingerprint (Anti-Abuse)</h3>
       <p>Upon account deletion, we store a one-way cryptographic fingerprint (HMAC-SHA256 hash) of your email address.
         This fingerprint is <strong>not reversible</strong> — no email address can be recovered from it. It is used
@@ -521,6 +541,11 @@
               <td>Microsoft Clarity</td>
               <td>Per Microsoft Clarity's retention policy</td>
             </tr>
+            <tr>
+              <td>Advertising events &amp; advertising ID (no photos, no email)</td>
+              <td>Meta Platforms (Facebook/Instagram advert measurement)</td>
+              <td>Per Meta's retention policy</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -536,6 +561,7 @@
           (such as Google Gemini or xAI Grok) to maintain service quality and availability. Whichever provider is
           active receives only the two photos needed to produce your try-on image, and no account details.</li>
         <li>Microsoft Clarity (in-app analytics and session replay, with your photos masked)</li>
+        <li>Meta Platforms (advert measurement — app events and advertising ID only, no photos)</li>
         <li>Shorebird (over-the-air code update delivery)</li>
       </ul>
       <p>Each third party operates under its own privacy policy. We recommend reviewing those policies for details on
@@ -583,7 +609,7 @@
       <p>We never sell or rent your personal information. We only share information:</p>
       <ul>
         <li>With trusted service providers necessary to operate the App (Firebase, Razorpay, our current AI image
-          generation provider, Microsoft Clarity, Shorebird).
+          generation provider, Microsoft Clarity, Meta Platforms, Shorebird).
         </li>
         <li>When required by law, court order, or governmental authority.</li>
         <li>To protect our legal rights or investigate fraud.</li>
